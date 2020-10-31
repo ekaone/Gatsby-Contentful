@@ -38,7 +38,7 @@
     "url": "git+https://github.com/ekaone/Gatsby-Contentful.git"
   },
   "scripts": {
-    "dev": "gatsby develop",
+    "dev": "gatsby clean && gatsby develop",
     "build": "gatsby build",
     "heroku-postbuild": "gatsby build",
     "serve": "gatsby serve",
